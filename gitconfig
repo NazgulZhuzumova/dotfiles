@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = nazgul.zhuzumova@yahoo.co.uk
+	name = Nazgul Zhuzumova
