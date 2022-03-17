@@ -51,4 +51,9 @@
   rebase = false
 [user]
 	email = nazgul.zhuzumova@yahoo.co.uk
-	name = Nazgul Zhuzumova
+	name = NazgulZhuzumova
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
